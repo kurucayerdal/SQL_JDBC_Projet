@@ -39,7 +39,7 @@ formatter.match({
   "location": "SQL_JDBC_Steps.goToDatabaseAndGetTheListOfCountryWith(String)"
 });
 formatter.result({
-  "duration": 1999135800,
+  "duration": 2308918600,
   "status": "passed"
 });
 formatter.match({
@@ -52,7 +52,7 @@ formatter.match({
   "location": "SQL_JDBC_Steps.goToDatabaseAndGetTheListOfCityWith(String)"
 });
 formatter.result({
-  "duration": 423479200,
+  "duration": 383263700,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,7 @@ formatter.match({
   "location": "SQL_JDBC_Steps.goToDatabaseAndGetTheListOfAddressWith(String)"
 });
 formatter.result({
-  "duration": 350855000,
+  "duration": 338613500,
   "status": "passed"
 });
 });
