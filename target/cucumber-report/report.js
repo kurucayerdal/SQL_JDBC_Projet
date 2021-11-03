@@ -26,7 +26,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "Trouvez combien de films id de acteur a \"SELECT actor_id, count(title) FROM film_actor LEFT JOIN film ON film.film_id\u003dfilm_actor.film_id GROUP BY actor_id;\"",
+  "name": "Trouvez combien de films id de acteur a \"SELECT actor_id, count(title) FROM film_actor LEFT JOIN film ON film.film_id\u003dfilm_actor.film_id GROUP BY actor_id\"",
   "keyword": "And "
 });
 formatter.match({
@@ -39,7 +39,7 @@ formatter.match({
   "location": "SQL_JDBC_Steps.goToDatabaseAndGetTheListOfCountryWith(String)"
 });
 formatter.result({
-  "duration": 2308918600,
+  "duration": 2256413300,
   "status": "passed"
 });
 formatter.match({
@@ -52,20 +52,20 @@ formatter.match({
   "location": "SQL_JDBC_Steps.goToDatabaseAndGetTheListOfCityWith(String)"
 });
 formatter.result({
-  "duration": 383263700,
+  "duration": 402719800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "SELECT actor_id, count(title) FROM film_actor LEFT JOIN film ON film.film_id\u003dfilm_actor.film_id GROUP BY actor_id;",
+      "val": "SELECT actor_id, count(title) FROM film_actor LEFT JOIN film ON film.film_id\u003dfilm_actor.film_id GROUP BY actor_id",
       "offset": 41
     }
   ],
   "location": "SQL_JDBC_Steps.goToDatabaseAndGetTheListOfAddressWith(String)"
 });
 formatter.result({
-  "duration": 338613500,
+  "duration": 363947800,
   "status": "passed"
 });
 });
